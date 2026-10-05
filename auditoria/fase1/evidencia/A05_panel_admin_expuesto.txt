@@ -1,0 +1,16 @@
+﻿### A05_panel_admin_expuesto - Acceso directo a /admin sin credenciales
+### Fecha (UTC): 2026-10-04T22:52:28Z
+### Herramienta: curl.exe (binario nativo de Windows)
+------------------------------------------------------------
+### Respuesta:
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 708
+ETag: W/"2c4-WSnNCQXQn7Z+Dy/+Yiy8oGw1zrI"
+Date: Sun, 04 Oct 2026 22:52:30 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"panel":"admin-tracklog","drivers":[{"id":1,"name":"Carlos Fuentes","username":"cfuentes","password":"camion2024","lat":-33.4489,"lng":-70.6693},{"id":2,"name":"Marcela Soto","username":"msoto","password":"flota#2024","lat":-33.0472,"lng":-71.6127},{"id":3,"name":"Jorge Pino","username":"jpino","password":"ruta_norte","lat":-36.8201,"lng":-73.0444}],"packages":[{"id":1,"barcode":"PKG-0001-CL","description":"Repuestos industriales","assigned_driver_id":2,"status":"en_ruta"},{"id":2,"barcode":"PKG-0002-CL","description":"Equipos m├®dicos","assigned_driver_id":null,"status":"pendiente"},{"id":3,"barcode":"PKG-0003-CL","description":"Electr├│nica de consumo","assigned_driver_id":1,"status":"en_ruta"}]}
+------------------------------------------------------------

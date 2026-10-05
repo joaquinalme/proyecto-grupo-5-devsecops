@@ -1,0 +1,16 @@
+﻿### A02_credenciales_texto_plano - Envio de credenciales por headers sin cifrar
+### Fecha (UTC): 2026-10-04T22:52:28Z
+### Herramienta: curl.exe (binario nativo de Windows)
+------------------------------------------------------------
+### Respuesta:
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 78
+ETag: W/"4e-g04hLGlxeeB/KHS0cY915sWW05s"
+Date: Sun, 04 Oct 2026 22:52:29 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"ok":true,"token":"static-token-1","driver":{"id":1,"name":"Carlos Fuentes"}}
+------------------------------------------------------------

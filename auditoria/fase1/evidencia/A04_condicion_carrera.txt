@@ -1,0 +1,29 @@
+﻿### A04_condicion_carrera - Doble asignacion concurrente del mismo paquete
+### Fecha (UTC): 2026-10-04T22:52:28Z
+### Herramienta: curl.exe (binario nativo de Windows)
+------------------------------------------------------------
+### Respuesta:
+Respuesta 1:
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 49
+ETag: W/"31-Z/LZsnaVJXBYVCYO9qpHbpFNCjY"
+Date: Sun, 04 Oct 2026 22:52:29 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"ok":true,"package_id":1,"assigned_driver_id":1}
+
+Respuesta 2:
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 49
+ETag: W/"31-wcyu3UN5FenDAlED39dz06WURIE"
+Date: Sun, 04 Oct 2026 22:52:30 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"ok":true,"package_id":1,"assigned_driver_id":2}
+------------------------------------------------------------

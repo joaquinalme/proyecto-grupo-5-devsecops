@@ -1,0 +1,9 @@
+﻿### A09_falta_logging - Verificacion de ausencia de registro de eventos
+### Fecha (UTC): 2026-10-04T22:52:28Z
+### Herramienta: curl.exe (binario nativo de Windows)
+------------------------------------------------------------
+### Respuesta:
+Resultado: la carpeta src/vulnerable/ NO contiene ninguna carpeta logs/
+ni archivo de registro de aplicacion. Los intentos anteriores,
+incluido el ataque de inyeccion SQL, NO quedan registrados.
+------------------------------------------------------------

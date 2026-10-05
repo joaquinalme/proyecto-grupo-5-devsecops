@@ -1,0 +1,16 @@
+﻿### A06_componentes_vulnerables - Exposicion de dependencias/versiones del backend
+### Fecha (UTC): 2026-10-04T22:52:28Z
+### Herramienta: curl.exe (binario nativo de Windows)
+------------------------------------------------------------
+### Respuesta:
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 105
+ETag: W/"69-x8MHxET2Ei0iN6OVoenNiVA4OLI"
+Date: Sun, 04 Oct 2026 22:52:30 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"api":"1.0.0-vulnerable","dependencies":{"body-parser":"^1.20.2","express":"^4.19.2","xml2js":"0.4.19"}}
+------------------------------------------------------------
