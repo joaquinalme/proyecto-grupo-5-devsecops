@@ -34,8 +34,6 @@ En este proyecto, el equipo Grupo 5 asume el rol de "organización" consultora d
 | **Desarrollador / auditor** | Responsable de implementar los controles y de ejecutar las pruebas de penetración con `curl` |
 | **Responsable de cumplimiento normativo** | Verifica que el ONF y el ASC se mantengan alineados con OWASP Top 10 e ISO/IEC 27034 |
 
-> Nota: en un equipo de 3 integrantes, estos roles pueden repartirse o rotarse, pero deben quedar explícitamente asignados en el README del repositorio.
-
 ### 2.3 Niveles de confianza de la aplicación
 
 Según ISO/IEC 27034, cada aplicación se clasifica según su exposición y criticidad. Para TrackLog API:
