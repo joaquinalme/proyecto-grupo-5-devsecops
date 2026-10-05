@@ -33,7 +33,7 @@ Para facilitar la revisión, cada criterio de la pauta de evaluación tiene su e
 | 3 | Auditoría e Identificación de Fallos — Fase 1 Insegura (**20%**) | API vulnerable en [`src/vulnerable/`](src/vulnerable/) + evidencia cruda en [`auditoria/fase1/evidencia/`](auditoria/fase1/evidencia/) (10 archivos `.txt`, uno por riesgo OWASP) |
 | 4 | Mitigación Integral del OWASP Top 10 (**30%**) | API refactorizada en [`src/seguro/`](src/seguro/) + re-pruebas en [`auditoria/fase2/evidencia/`](auditoria/fase2/evidencia/) (códigos 400/401/403/409 en los 10 riesgos) |
 | 5 | Validación Robusta y Regex / *Zero Trust Input* (**15%**) | Implementado en `src/seguro/server.js`: `BARCODE_REGEX` (A03), validación de `username` (A02), `Number.isInteger` en IDs (A01/A04), lista blanca `ALLOWED_MAP_HOSTS` (A10) |
-| 6 | Trazabilidad y Repositorio GitHub / *Docs-as-Code* (**10%**) | Estructura de carpetas de este repositorio + este mismo `README.md` + historial de commits en GitHub (ver sección 9 — **pendiente de subir**) |
+| 6 | Trazabilidad y Repositorio GitHub / *Docs-as-Code* (**10%**) | Estructura de carpetas de este repositorio + este mismo `README.md` + historial de commits en GitHub  |
 
 > El detalle control-por-control (qué exige la norma y cómo se implementó) está en [`gobierno-seguridad/03-ASC-perfil-controles.md`](gobierno-seguridad/03-ASC-perfil-controles.md).
 
