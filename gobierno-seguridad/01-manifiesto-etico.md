@@ -3,7 +3,7 @@
 **Proyecto:** TrackLog API — Sistema de Seguimiento de Envíos y Flota
 **Equipo:** Grupo 5 — Logística
 **Integrantes:** Almendares, Apablaza, Flores
-**Fecha:** [completar]
+**Fecha:** 05-10-2026
 
 ---
 
