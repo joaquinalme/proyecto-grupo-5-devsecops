@@ -1,0 +1,15 @@
+2026-10-04T22:55:19.129Z POST /api/driver/login 200 52.940 ms - ::1
+2026-10-04T22:55:19.229Z GET /api/driver/location/2 403 3.517 ms - ::1
+2026-10-04T22:55:19.267Z POST /api/driver/login 400 1.318 ms - ::1
+2026-10-04T22:55:19.305Z GET /api/package/search 400 0.719 ms - ::1
+2026-10-04T22:55:19.788Z POST /api/package/assign 200 0.781 ms - ::1
+2026-10-04T22:55:19.884Z POST /api/package/assign 409 0.847 ms - ::1
+2026-10-04T22:55:19.970Z GET /admin 401 0.376 ms - ::1
+2026-10-04T22:55:20.034Z GET /admin 403 1.577 ms - ::1
+2026-10-04T22:55:20.070Z GET /api/version 401 0.557 ms - ::1
+2026-10-04T22:55:20.105Z POST /api/manifest/upload 401 0.400 ms - ::1
+2026-10-04T22:55:20.147Z POST /api/manifest/upload 400 1.849 ms - ::1
+2026-10-04T22:55:20.224Z GET /api/driver/location/1 200 0.977 ms - ::1
+2026-10-04T22:55:20.247Z GET /admin 403 1.332 ms - ::1
+2026-10-04T22:55:20.279Z GET /api/package/search 400 0.674 ms - ::1
+2026-10-04T22:55:20.328Z POST /api/maps/geocode 400 0.818 ms - ::1

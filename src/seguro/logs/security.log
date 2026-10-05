@@ -1,0 +1,5 @@
+2026-10-04T22:55:19.227Z [SECURITY] acceso_ubicacion_no_autorizado {"ip":"::1","solicitante":"cfuentes","objetivo":2}
+2026-10-04T22:55:19.265Z [SECURITY] credenciales_por_header_rechazadas {"ip":"::1"}
+2026-10-04T22:55:20.033Z [SECURITY] acceso_rol_denegado {"ip":"::1","user":"cfuentes","requiredRole":"admin"}
+2026-10-04T22:55:20.146Z [SECURITY] xxe_bloqueado {"ip":"::1","user":"cfuentes"}
+2026-10-04T22:55:20.246Z [SECURITY] acceso_rol_denegado {"ip":"::1","user":"cfuentes","requiredRole":"admin"}
