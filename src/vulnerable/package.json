@@ -1,0 +1,18 @@
+{
+  "name": "tracklog-api-vulnerable",
+  "version": "1.0.0",
+  "description": "TrackLog API - Version INICIAL con vulnerabilidades OWASP Top 10 (uso exclusivo academico, Evaluacion 02 DevSecOps)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "xml2js": "0.4.19"
+  },
+  "notes": "xml2js@0.4.19 fijada deliberadamente (A06: componente desactualizado), aunque no se usa en runtime (se expone solo vía GET /api/version). El parseo de manifiestos XML (A08/XXE) usa xxe-lite.js (modulo propio, sin dependencias nativas) con resolucion de entidades externas HABILITADA (noent:true, dtdload:true), replicando una configuracion insegura real de parser XML con soporte DTD. La base de datos usa node:sqlite (incluido en Node.js >= 22.5), sin dependencias nativas que compilar."
+}
