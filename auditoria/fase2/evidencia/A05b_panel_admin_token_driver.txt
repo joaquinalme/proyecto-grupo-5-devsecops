@@ -1,0 +1,16 @@
+﻿### A05b_panel_admin_token_driver - Acceso a /admin con token valido pero de rol driver (no admin)
+### Fecha (UTC): 2026-10-04T22:55:18Z
+### Herramienta: curl.exe (binario nativo de Windows)
+------------------------------------------------------------
+### Respuesta:
+HTTP/1.1 403 Forbidden
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+ETag: W/"22-VV1/Uw9VXgvo1gcZz7ovWvw8haw"
+Date: Sun, 04 Oct 2026 22:55:20 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"error":"Permisos insuficientes"}
+------------------------------------------------------------

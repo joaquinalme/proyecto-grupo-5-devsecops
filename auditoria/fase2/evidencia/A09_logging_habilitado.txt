@@ -1,0 +1,20 @@
+﻿### A09_logging_habilitado - Verificacion de registro de eventos (mitigado)
+### Fecha (UTC): 2026-10-04T22:55:18Z
+### Herramienta: curl.exe (binario nativo de Windows)
+------------------------------------------------------------
+### Respuesta:
+### Contenido de logs/access.log (ultimas lineas):
+2026-10-04T22:55:20.070Z GET /api/version 401 0.557 ms - ::1
+2026-10-04T22:55:20.105Z POST /api/manifest/upload 401 0.400 ms - ::1
+2026-10-04T22:55:20.147Z POST /api/manifest/upload 400 1.849 ms - ::1
+2026-10-04T22:55:20.224Z GET /api/driver/location/1 200 0.977 ms - ::1
+2026-10-04T22:55:20.247Z GET /admin 403 1.332 ms - ::1
+2026-10-04T22:55:20.279Z GET /api/package/search 400 0.674 ms - ::1
+
+### Contenido de logs/security.log:
+2026-10-04T22:55:19.227Z [SECURITY] acceso_ubicacion_no_autorizado {"ip":"::1","solicitante":"cfuentes","objetivo":2}
+2026-10-04T22:55:19.265Z [SECURITY] credenciales_por_header_rechazadas {"ip":"::1"}
+2026-10-04T22:55:20.033Z [SECURITY] acceso_rol_denegado {"ip":"::1","user":"cfuentes","requiredRole":"admin"}
+2026-10-04T22:55:20.146Z [SECURITY] xxe_bloqueado {"ip":"::1","user":"cfuentes"}
+2026-10-04T22:55:20.246Z [SECURITY] acceso_rol_denegado {"ip":"::1","user":"cfuentes","requiredRole":"admin"}
+------------------------------------------------------------

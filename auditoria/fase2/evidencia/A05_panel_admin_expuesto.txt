@@ -1,0 +1,16 @@
+﻿### A05_panel_admin_expuesto - Acceso directo a /admin sin credenciales
+### Fecha (UTC): 2026-10-04T22:55:18Z
+### Herramienta: curl.exe (binario nativo de Windows)
+------------------------------------------------------------
+### Respuesta:
+HTTP/1.1 401 Unauthorized
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+ETag: W/"22-GkCGMhUioBzXu+lxOxPfDY14t/Q"
+Date: Sun, 04 Oct 2026 22:55:19 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"error":"Token Bearer requerido"}
+------------------------------------------------------------

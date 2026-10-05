@@ -1,0 +1,16 @@
+﻿### A02_credenciales_texto_plano - Envio de credenciales por headers sin cifrar
+### Fecha (UTC): 2026-10-04T22:55:18Z
+### Herramienta: curl.exe (binario nativo de Windows)
+------------------------------------------------------------
+### Respuesta:
+HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 69
+ETag: W/"45-8wA1D/sOos28JdnYptBf8J07gTo"
+Date: Sun, 04 Oct 2026 22:55:19 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"error":"Las credenciales deben enviarse en el body, no en headers"}
+------------------------------------------------------------

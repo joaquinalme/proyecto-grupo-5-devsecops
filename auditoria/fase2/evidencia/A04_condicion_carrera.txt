@@ -1,0 +1,29 @@
+﻿### A04_condicion_carrera - Doble asignacion concurrente del mismo paquete
+### Fecha (UTC): 2026-10-04T22:55:18Z
+### Herramienta: curl.exe (binario nativo de Windows)
+------------------------------------------------------------
+### Respuesta:
+Respuesta 1:
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 49
+ETag: W/"31-Z/LZsnaVJXBYVCYO9qpHbpFNCjY"
+Date: Sun, 04 Oct 2026 22:55:19 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"ok":true,"package_id":1,"assigned_driver_id":1}
+
+Respuesta 2:
+HTTP/1.1 409 Conflict
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 78
+ETag: W/"4e-TddgfNAW0oLe22V8xb46qnEiDQg"
+Date: Sun, 04 Oct 2026 22:55:19 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"error":"El paquete ya fue asignado a otro conductor","current_assignment":1}
+------------------------------------------------------------
